@@ -1,105 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{09806D74-2CF0-429D-BACC-95311234D4C0}|WebApp\\WebApp.csproj|c:\\users\\shawn\\documents\\group-project-part-2-ajst\\webapp\\webapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{09806D74-2CF0-429D-BACC-95311234D4C0}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09806D74-2CF0-429D-BACC-95311234D4C0}|WebApp\\WebApp.csproj|c:\\users\\shawn\\documents\\group-project-part-2-ajst\\webapp\\webapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{09806D74-2CF0-429D-BACC-95311234D4C0}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09806D74-2CF0-429D-BACC-95311234D4C0}|WebApp\\WebApp.csproj|c:\\users\\shawn\\documents\\group-project-part-2-ajst\\webapp\\webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{09806D74-2CF0-429D-BACC-95311234D4C0}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09806D74-2CF0-429D-BACC-95311234D4C0}|WebApp\\WebApp.csproj|c:\\users\\shawn\\documents\\group-project-part-2-ajst\\webapp\\webapp\\pages\\nfl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{09806D74-2CF0-429D-BACC-95311234D4C0}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\nfl.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{09806D74-2CF0-429D-BACC-95311234D4C0}|WebApp\\WebApp.csproj|c:\\users\\shawn\\documents\\group-project-part-2-ajst\\webapp\\webapp\\pages\\nba.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{09806D74-2CF0-429D-BACC-95311234D4C0}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\nba.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-18T07:22:42.359Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\Index.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-18T07:22:32.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\wwwroot\\css\\site.css",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\wwwroot\\css\\site.css",
-              "RelativeToolTip": "WebApp\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAiwG0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-03-18T08:09:06.975Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NFL.cshtml",
-              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NFL.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\NFL.cshtml",
-              "ToolTip": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NFL.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\NFL.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-18T07:27:42.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NBA.cshtml",
-              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBA.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\NBA.cshtml",
-              "ToolTip": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBA.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\NBA.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-18T07:27:59.549Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
