@@ -1,0 +1,50 @@
+﻿@page
+@model WebApp.Pages.NBAPlayersModel
+@{
+    ViewData["Title"] = "NBA Players";
+}
+
+<h1 class="mb-4">NBA Players</h1>
+
+@if (Model.Players.Count == 0)
+{
+    <p>No players found.</p>
+}
+else
+{
+    <table class="table table-striped table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Team ID</th>
+                <th>Height</th>
+                <th>Weight</th>
+                <th>Years In League</th>
+                <th>Birth Year</th>
+                <th>Born In</th>
+                <th>Draft Year</th>
+                <th>Draft Round</th>
+                <th>Draft Pick</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var player in Model.Players)
+            {
+                <tr>
+                    <td>@player.Name</td>
+                    <td>@player.Position</td>
+                    <td>@player.TeamID</td>
+                    <td>@player.Height</td>
+                    <td>@player.Weight</td>
+                    <td>@player.YearsInLeague</td>
+                    <td>@player.BirthYear</td>
+                    <td>@player.BornIn</td>
+                    <td>@player.DraftYear</td>
+                    <td>@player.DraftRound</td>
+                    <td>@player.DraftPick</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

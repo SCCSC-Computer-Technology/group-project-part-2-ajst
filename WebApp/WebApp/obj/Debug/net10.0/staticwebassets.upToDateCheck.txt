@@ -1,3 +1,4 @@
+wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\Images\homeImage.png
 wwwroot\Images\NFL_Teams.png
@@ -62,7 +63,7 @@ wwwroot\lib\jquery\dist\jquery.slim.js
 wwwroot\lib\jquery\dist\jquery.slim.min.js
 wwwroot\lib\jquery\dist\jquery.slim.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\site.css
+C:\Users\Shawn\Documents\group-project-part-2-ajst\WebApp\WebApp\wwwroot\css\site.css
 C:\Users\Shawn\Documents\group-project-part-2-ajst\WebApp\WebApp\wwwroot\favicon.ico
 C:\Users\Shawn\Documents\group-project-part-2-ajst\WebApp\WebApp\wwwroot\js\site.js
 C:\Users\Shawn\Documents\group-project-part-2-ajst\WebApp\WebApp\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -124,4 +125,3 @@ C:\Users\Shawn\Documents\group-project-part-2-ajst\WebApp\WebApp\wwwroot\lib\jqu
 C:\Users\Shawn\Documents\group-project-part-2-ajst\WebApp\WebApp\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\Shawn\Documents\group-project-part-2-ajst\WebApp\WebApp\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\Users\Shawn\Documents\group-project-part-2-ajst\WebApp\WebApp\wwwroot\lib\jquery\LICENSE.txt
-C:\Users\Shawn\Documents\group-project-part-2-ajst\WebApp\WebApp\wwwroot\css\site.css

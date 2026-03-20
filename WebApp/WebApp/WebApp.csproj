@@ -10,4 +10,8 @@
     <None Include="wwwroot\Images\NFL_Teams.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.0.0" />
+  </ItemGroup>
+
 </Project>
