@@ -1,0 +1,70 @@
+Project TODO
+
+Each Member 
+	- At least two pages
+		- Fully functional
+		- Import data from db
+		- CRUD operations are optional? Possibly? Based on the page?
+			User
+	
+Data Tables
+	NBA 
+		Current Players
+			will list current players, and data pertaining to them (name, 
+			position, team, height, weight, birthday, etc....)
+		Schedule
+			List all games, this can be sorted by team first possibly, and then
+			show the schedule for that specific team after?
+		Season Stats
+			Stats. Show stats. Be creative, decide on a layout, but possibly
+			have stat leaders, total stats, sections to show different top stats
+			(those can be made just by selecting top 5 or top 10 from a specific
+			category in the stats)
+			
+			Stats should include the current scores / rankings
+		Teams
+			List all teams and relevant information about those teams, possibly include 
+			team logos, arena / stadium, any relevant data about the team itself.
+	
+	NFL
+		Current Players
+		Schedule
+		Season Stats
+		Teams
+		
+		Descriptions will continue as above, no need to retype.
+		
+	User
+		User
+		FavoriteNBATeam
+		
+		?? The users table and data still need to be though through
+		
+Page Assignments
+
+	NBA
+		Current Players			Shawn
+		Schedule				Trevor
+		Season Stats			Jorge
+		Teams					Shawn
+	NFL
+		Current Players
+		Schedule				Trevor
+		Season Stats
+		Teams					Jorge
+
+	Au'rias
+		Stats (for both sports?)
+		(final remaining page) 
+	
+	Jorge
+		NFL Team
+		NBA Stats
+	
+	Shawn
+		NBA Players
+		NBA Teams
+	
+	Trevor
+		NFL Schedule
+		NBA Schedule
