@@ -1,74 +1,60 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Data.SqlClient;
-using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using WebApp.Data;
+using WebApp.Models;
 
 namespace WebApp.Pages
 {
     public class NBAPlayersModel : PageModel
     {
-        // create a list to hold players
-        public List<NBAPlayer> Players { get; set; } = new List<NBAPlayer>();
+        // declarations
+        private readonly SportsDbContext _context;
+        public List<NBAPlayer> Players { get; set; } = new();
+        public List<NBATeam> Teams { get; set; } = new();
 
-        // iconfig setup
-        private readonly IConfiguration _configuration;
+        // allows team id to be used with url when specific team
+        // is selected
+        [BindProperty(SupportsGet = true)]
+        public int? TeamID { get; set; }
 
-        public NBAPlayersModel(IConfiguration configuration)
+        public string SelectedTeamName { get; set; } = "";
+
+        // dbcontext link
+        public NBAPlayersModel(SportsDbContext context)
         {
-            _configuration = configuration;
+            _context = context;
         }
 
-        public void OnGet()
+        // main program
+        public async Task OnGetAsync()
         {
-            string connectionString = _configuration.GetConnectionString("DefaultConnection");
+            // add the teams to team list
+            Teams = await _context.NBATeams.ToListAsync();
 
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            // filter by team id
+            if (TeamID == null)
             {
-                string query = @"SELECT Name, Position, TeamID, Height, Weight, YearsInLeague, BirthYear, BornIn, DraftYear, DraftRound, DraftPick
-                                 FROM nbaCurrentPlayers
-                                 ORDER BY Name";
+                Players = await _context.NBAPlayers.ToListAsync();
+                SelectedTeamName = "All Players";
+            }
+            else
+            {
+                // load all players
+                Players = await _context.NBAPlayers
+                    .Where(p => p.TeamID == TeamID)
+                    .ToListAsync();
 
-                using (SqlCommand command = new SqlCommand(query, connection))
+                // get first team with matching selected team variable
+                NBATeam? selectedTeam = await _context.NBATeams
+                    .FirstOrDefaultAsync(t => t.NBATeamID == TeamID);
+
+                // assign team name
+                if (selectedTeam != null)
                 {
-                    connection.Open();
-
-                    using (SqlDataReader reader = command.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            Players.Add(new NBAPlayer
-                            {
-                                Name = reader["Name"]?.ToString() ?? "",
-                                Position = reader["Position"]?.ToString() ?? "",
-                                TeamID = reader["TeamID"] != DBNull.Value ? Convert.ToInt32(reader["TeamID"]) : 0,
-                                Height = reader["Height"] != DBNull.Value ? Convert.ToInt32(reader["Height"]) : 0,
-                                Weight = reader["Weight"] != DBNull.Value ? Convert.ToInt32(reader["Weight"]) : 0,
-                                YearsInLeague = reader["YearsInLeague"] != DBNull.Value ? Convert.ToInt32(reader["YearsInLeague"]) : 0,
-                                BirthYear = reader["BirthYear"] != DBNull.Value ? Convert.ToInt32(reader["BirthYear"]) : 0,
-                                BornIn = reader["BornIn"]?.ToString() ?? "",
-                                DraftYear = reader["DraftYear"] != DBNull.Value ? Convert.ToInt32(reader["DraftYear"]) : 0,
-                                DraftRound = reader["DraftRound"] != DBNull.Value ? Convert.ToInt32(reader["DraftRound"]) : 0,
-                                DraftPick = reader["DraftPick"] != DBNull.Value ? Convert.ToInt32(reader["DraftPick"]) : 0
-                            });
-                        }
-                    }
+                    SelectedTeamName = selectedTeam.TeamName;
                 }
             }
-        }
-
-        public class NBAPlayer
-        {
-            public int PlayerID { get; set; }
-            public string Name { get; set; } = "";
-            public string Position { get; set; } = "";
-            public int TeamID { get; set; }
-            public int Height { get; set; }
-            public int Weight { get; set; }
-            public int YearsInLeague { get; set; }
-            public int BirthYear { get; set; }
-            public string BornIn { get; set; } = "";
-            public int DraftYear { get; set; }
-            public int DraftRound { get; set; }
-            public int DraftPick { get; set; }
         }
     }
 }

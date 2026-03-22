@@ -76,7 +76,6 @@ body {
     text-decoration: underline;
 }
 
-/* Home image */
 .hero-image {
     max-width: 700px;
     width: 100%;
@@ -85,7 +84,44 @@ body {
     margin: 0 auto;
 }
 
-/* Mobile */
+.table {
+    width: 100%;
+}
+
+    .table th,
+    .table td {
+        white-space: nowrap;
+    }
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.team-item {
+    display: block;
+    text-align: center;
+    padding: 6px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    transition: all 0.2s ease;
+}
+
+    .team-item:hover {
+        background-color: #e9ecef;
+        border-color: #bbb;
+    }
+
 @media (max-width: 575.98px) {
     .main-nav {
         flex-direction: column;

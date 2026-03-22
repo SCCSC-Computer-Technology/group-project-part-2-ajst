@@ -1,62 +1,30 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Data.SqlClient;
-using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using WebApp.Data;
+using WebApp.Models;
 
 namespace WebApp.Pages
 {
     public class NBATeamsModel : PageModel
     {
+        // db context variable declaration
+        private readonly SportsDbContext _context;
+
+        // make the list for the teams
         public List<NBATeam> Teams { get; set; } = new List<NBATeam>();
 
-        private readonly IConfiguration _configuration;
-
-        public NBATeamsModel(IConfiguration configuration)
+        // link db context
+        public NBATeamsModel(SportsDbContext context)
         {
-            _configuration = configuration;
+            _context = context;
         }
 
-        public void OnGet()
+        // loads NBATeams table, then orders by team name
+        public async Task OnGetAsync()
         {
-            string connectionString = _configuration.GetConnectionString("DefaultConnection");
-
-            using (SqlConnection connection = new SqlConnection(connectionString))
-            {
-                string query = @"SELECT TeamName, Abbreviation, Conference, Arena, Wins, Losses
-                                 FROM nbaTeams
-                                 ORDER BY TeamName";
-
-                using (SqlCommand command = new SqlCommand(query, connection))
-                {
-                    connection.Open();
-
-                    using (SqlDataReader reader = command.ExecuteReader())
-                    {
-                        while (reader.Read())
-                        {
-                            Teams.Add(new NBATeam
-                            {
-                                TeamName = reader["TeamName"]?.ToString() ?? "",
-                                Abbreviation = reader["Abbreviation"]?.ToString() ?? "",
-                                Conference = reader["Conference"]?.ToString() ?? "",
-                                Arena = reader["Arena"]?.ToString() ?? "",
-                                Wins = reader["Wins"] != DBNull.Value ? Convert.ToInt32(reader["Wins"]) : 0,
-                                Losses = reader["Losses"] != DBNull.Value ? Convert.ToInt32(reader["Losses"]) : 0
-                            });
-                        }
-                    }
-                }
-            }
-        }
-
-        public class NBATeam
-        {
-            public int NBATeamID { get; set; }
-            public string TeamName { get; set; } = "";
-            public string Abbreviation { get; set; } = "";
-            public string Conference { get; set; } = "";
-            public string Arena { get; set; } = "";
-            public int Wins { get; set; }
-            public int Losses { get; set; }
+            Teams = await _context.NBATeams
+                .OrderBy(t => t.TeamName)
+                .ToListAsync();
         }
     }
 }
