@@ -1,70 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\shawn\\documents\\group-project-part-2-ajst\\webapp\\webapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\shawn\\documents\\group-project-part-2-ajst\\webapp\\webapp\\pages\\nbaplayers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\nbaplayers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\shawn\\documents\\group-project-part-2-ajst\\webapp\\webapp\\pages\\nbaplayers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\nbaplayers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAFAAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-21T01:30:56.481Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NBAPlayers.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBAPlayers.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\NBAPlayers.cshtml.cs",
-              "ToolTip": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBAPlayers.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\NBAPlayers.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-20T23:42:38.153Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NBAPlayers.cshtml",
-              "DocumentMoniker": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBAPlayers.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\NBAPlayers.cshtml",
-              "ToolTip": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBAPlayers.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\NBAPlayers.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-20T23:42:31.832Z"
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

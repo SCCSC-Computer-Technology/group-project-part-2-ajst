@@ -4,37 +4,30 @@
     ViewData["Title"] = "NBA Teams";
 }
 
-<h1 class="mb-4">NBA Teams</h1>
+<h1>NBA Teams</h1>
 
-@if (Model.Teams.Count == 0)
-{
-    <p>No teams found.</p>
-}
-else
-{
-    <table class="table table-striped table-bordered">
-        <thead>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Team Name</th>
+            <th>Abbreviation</th>
+            <th>Conference</th>
+            <th>Arena</th>
+            <th>Wins</th>
+            <th>Losses</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var team in Model.Teams)
+        {
             <tr>
-                <th>Team Name</th>
-                <th>Abbreviation</th>
-                <th>Conference</th>
-                <th>Arena</th>
-                <th>Wins</th>
-                <th>Losses</th>
+                <td>@team.TeamName</td>
+                <td>@team.Abbreviation</td>
+                <td>@team.Conference</td>
+                <td>@team.Arena</td>
+                <td>@team.Wins</td>
+                <td>@team.Losses</td>
             </tr>
-        </thead>
-        <tbody>
-            @foreach (var team in Model.Teams)
-            {
-                <tr>
-                    <td>@team.TeamName</td>
-                    <td>@team.Abbreviation</td>
-                    <td>@team.Conference</td>
-                    <td>@team.Arena</td>
-                    <td>@team.Wins</td>
-                    <td>@team.Losses</td>
-                </tr>
-            }
-        </tbody>
-    </table>
-}
+        }
+    </tbody>
+</table>
