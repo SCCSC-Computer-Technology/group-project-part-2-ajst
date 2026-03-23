@@ -1,0 +1,49 @@
+﻿@page
+@model WebApp.Pages.NBAScheduleModel
+@{
+    ViewData["Title"] = "NBA Schedule";
+}
+
+<h1>NBA Schedule</h1>
+
+<p>
+    <a asp-page="/NBASchedule">Show All Games</a>
+</p>
+
+<h3>@Model.SelectedTeamName</h3>
+
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Start Time</th>
+            <th>Visitor Team</th>
+            <th>Visitor Points</th>
+            <th>Home Team</th>
+            <th>Home Points</th>
+            <th>Arena</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var game in Model.Games)
+        {
+            <tr>
+                <td>@game.Date.ToShortDateString()</td>
+                <td>@game.StartTime</td>
+                <td>
+                    <a asp-page="/NBASchedule" asp-route-TeamName="@game.VisitorTeam">
+                        @game.VisitorTeam
+                    </a>
+                </td>
+                <td>@game.VisitorPoints</td>
+                <td>
+                    <a asp-page="/NBASchedule" asp-route-TeamName="@game.HomeTeam">
+                        @game.HomeTeam
+                    </a>
+                </td>
+                <td>@game.HomePoints</td>
+                <td>@game.Arena</td>
+            </tr>
+        }
+    </tbody>
+</table>

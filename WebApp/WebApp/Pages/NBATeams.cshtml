@@ -21,7 +21,11 @@
         @foreach (var team in Model.Teams)
         {
             <tr>
-                <td>@team.TeamName</td>
+                <td>
+                    <a asp-page="/NBASchedule" asp-route-TeamName="@team.TeamName">
+                        @team.TeamName
+                    </a>
+                </td>
                 <td>@team.Abbreviation</td>
                 <td>@team.Conference</td>
                 <td>@team.Arena</td>
