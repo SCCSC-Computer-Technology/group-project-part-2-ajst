@@ -19,57 +19,65 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = WebApp
 build_property.RootNamespace = WebApp
-build_property.ProjectDir = C:\Users\Shawn\Documents\group-project-part-2-ajst\WebApp\WebApp\
+build_property.ProjectDir = C:\Users\mstgi\OneDrive\Documents\GitHub\GP2NbaNflSched\group-project-part-2-ajst\WebApp\WebApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Shawn\Documents\group-project-part-2-ajst\WebApp\WebApp
+build_property.MSBuildProjectDirectory = C:\Users\mstgi\OneDrive\Documents\GitHub\GP2NbaNflSched\group-project-part-2-ajst\WebApp\WebApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Shawn/Documents/group-project-part-2-ajst/WebApp/WebApp/Pages/Error.cshtml]
+[C:/Users/mstgi/OneDrive/Documents/GitHub/GP2NbaNflSched/group-project-part-2-ajst/WebApp/WebApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Shawn/Documents/group-project-part-2-ajst/WebApp/WebApp/Pages/Index.cshtml]
+[C:/Users/mstgi/OneDrive/Documents/GitHub/GP2NbaNflSched/group-project-part-2-ajst/WebApp/WebApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Shawn/Documents/group-project-part-2-ajst/WebApp/WebApp/Pages/NBA.cshtml]
+[C:/Users/mstgi/OneDrive/Documents/GitHub/GP2NbaNflSched/group-project-part-2-ajst/WebApp/WebApp/Pages/NBA.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTkJBLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Shawn/Documents/group-project-part-2-ajst/WebApp/WebApp/Pages/NBAPlayers.cshtml]
+[C:/Users/mstgi/OneDrive/Documents/GitHub/GP2NbaNflSched/group-project-part-2-ajst/WebApp/WebApp/Pages/NBAPlayers.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTkJBUGxheWVycy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Shawn/Documents/group-project-part-2-ajst/WebApp/WebApp/Pages/NBATeams.cshtml]
+[C:/Users/mstgi/OneDrive/Documents/GitHub/GP2NbaNflSched/group-project-part-2-ajst/WebApp/WebApp/Pages/NBASchedule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTkJBU2NoZWR1bGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mstgi/OneDrive/Documents/GitHub/GP2NbaNflSched/group-project-part-2-ajst/WebApp/WebApp/Pages/NBATeams.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTkJBVGVhbXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Shawn/Documents/group-project-part-2-ajst/WebApp/WebApp/Pages/NFL.cshtml]
+[C:/Users/mstgi/OneDrive/Documents/GitHub/GP2NbaNflSched/group-project-part-2-ajst/WebApp/WebApp/Pages/NFL.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTkZMLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Shawn/Documents/group-project-part-2-ajst/WebApp/WebApp/Pages/Privacy.cshtml]
+[C:/Users/mstgi/OneDrive/Documents/GitHub/GP2NbaNflSched/group-project-part-2-ajst/WebApp/WebApp/Pages/NFLSchedule.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTkZMU2NoZWR1bGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/mstgi/OneDrive/Documents/GitHub/GP2NbaNflSched/group-project-part-2-ajst/WebApp/WebApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Shawn/Documents/group-project-part-2-ajst/WebApp/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/mstgi/OneDrive/Documents/GitHub/GP2NbaNflSched/group-project-part-2-ajst/WebApp/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Shawn/Documents/group-project-part-2-ajst/WebApp/WebApp/Pages/_ViewImports.cshtml]
+[C:/Users/mstgi/OneDrive/Documents/GitHub/GP2NbaNflSched/group-project-part-2-ajst/WebApp/WebApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Shawn/Documents/group-project-part-2-ajst/WebApp/WebApp/Pages/_ViewStart.cshtml]
+[C:/Users/mstgi/OneDrive/Documents/GitHub/GP2NbaNflSched/group-project-part-2-ajst/WebApp/WebApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Shawn/Documents/group-project-part-2-ajst/WebApp/WebApp/Pages/Shared/_Layout.cshtml]
+[C:/Users/mstgi/OneDrive/Documents/GitHub/GP2NbaNflSched/group-project-part-2-ajst/WebApp/WebApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1lnhnt7yf2
