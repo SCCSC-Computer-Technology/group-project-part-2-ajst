@@ -1,72 +1,27 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\gp2nbanflsched\\group-project-part-2-ajst\\webapp\\webapp\\pages\\nbaschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\nbaschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\gp2nbanflsched\\group-project-part-2-ajst\\webapp\\webapp\\pages\\nflschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\nflschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\gp2nbanflsched\\group-project-part-2-ajst\\webapp\\webapp\\models\\nbaschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\nbaschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\gp2nbanflsched\\group-project-part-2-ajst\\webapp\\webapp\\pages\\nbateams.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\nbateams.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\gp2nbanflsched\\group-project-part-2-ajst\\webapp\\webapp\\models\\nflschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\models\\nflschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\gp2nbanflsched\\group-project-part-2-ajst\\webapp\\webapp\\pages\\nflschedule.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\nflschedule.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\gp2nbanflsched\\group-project-part-2-ajst\\webapp\\webapp\\data\\sportsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\data\\sportsdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\gp2nbanflsched\\group-project-part-2-ajst\\webapp\\webapp\\pages\\nbaschedule.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\nbaschedule.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\gp2nbanflsched\\group-project-part-2-ajst\\webapp\\webapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\gp2nbanflsched\\group-project-part-2-ajst\\webapp\\webapp\\pages\\nbateams.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\nbateams.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\gp2nbanflsched\\group-project-part-2-ajst\\webapp\\webapp\\pages\\nbaplayers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\nbaplayers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\gp2nbanflsched\\group-project-part-2-ajst\\webapp\\webapp\\pages\\nbaplayers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\pages\\nbaplayers.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\gp2nbanflsched\\group-project-part-2-ajst\\webapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3215F6CF-A442-1C21-6AD3-94ED23F4EBA5}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\rae50\\source\\repos\\group-project-part-2-ajst\\WebApp\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "DockedHeight": 200,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -106,189 +61,24 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "NFLSchedule.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NFLSchedule.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\NFLSchedule.cshtml",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NFLSchedule.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\NFLSchedule.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-23T03:56:26.547Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NFLSchedule.cs",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Models\\NFLSchedule.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\NFLSchedule.cs",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Models\\NFLSchedule.cs",
-              "RelativeToolTip": "WebApp\\Models\\NFLSchedule.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T03:54:48.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NBASchedule.cs",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Models\\NBASchedule.cs",
-              "RelativeDocumentMoniker": "WebApp\\Models\\NBASchedule.cs",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Models\\NBASchedule.cs",
-              "RelativeToolTip": "WebApp\\Models\\NBASchedule.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T03:34:33.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NBATeams.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBATeams.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\NBATeams.cshtml",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBATeams.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\NBATeams.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-23T03:23:56.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SportsDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Data\\SportsDbContext.cs",
-              "RelativeDocumentMoniker": "WebApp\\Data\\SportsDbContext.cs",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Data\\SportsDbContext.cs",
-              "RelativeToolTip": "WebApp\\Data\\SportsDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T03:03:06.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "NBAPlayers.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBAPlayers.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\NBAPlayers.cshtml.cs",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBAPlayers.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\NBAPlayers.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T03:21:27.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NBASchedule.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBASchedule.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\NBASchedule.cshtml",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBASchedule.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\NBASchedule.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACoAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-23T03:33:39.712Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NFLSchedule.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NFLSchedule.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\NFLSchedule.cshtml.cs",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NFLSchedule.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\NFLSchedule.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T03:59:47.502Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "NBAPlayers.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBAPlayers.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\NBAPlayers.cshtml",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBAPlayers.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\NBAPlayers.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-23T03:22:40.34Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\Index.cshtml",
-              "RelativeToolTip": "WebApp\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-23T03:25:12.78Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "NBASchedule.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBASchedule.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\NBASchedule.cshtml.cs",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBASchedule.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\NBASchedule.cshtml.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T03:37:22.254Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NBATeams.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBATeams.cshtml.cs",
-              "RelativeDocumentMoniker": "WebApp\\Pages\\NBATeams.cshtml.cs",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\NBATeams.cshtml.cs",
-              "RelativeToolTip": "WebApp\\Pages\\NBATeams.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T03:24:10.763Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Program.cs",
-              "RelativeDocumentMoniker": "WebApp\\Program.cs",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\GP2NbaNflSched\\group-project-part-2-ajst\\WebApp\\WebApp\\Program.cs",
-              "RelativeToolTip": "WebApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T03:01:01.302Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         },
         {
-          "DockedWidth": 34,
+          "DockedHeight": 200,
           "SelectedChildIndex": -1,
           "Children": [
             {
