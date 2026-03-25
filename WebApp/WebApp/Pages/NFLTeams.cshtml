@@ -1,0 +1,39 @@
+﻿@page
+@model WebApp.Pages.NFLTeamsModel
+@{
+    ViewData["Title"] = "NFL Teams";
+}
+<div class="row">
+    <h1 class="display-2">NFL Teams</h1>
+    <table class="table">
+        <thead class="thead-inverse">
+            <tr>
+                <th>Team Name</th>
+                <th>Team Abreviation</th>
+                <th>Conference</th>
+                <th>Stadium</th>
+                <th>Wins</th>
+                <th>Losses</th>
+                <th>Ties</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+            @if (Model.Teams is not null)
+            {
+                @foreach (var t in Model.Teams)
+                {
+                    <tr>
+                        <th>@t.TeamName</th>
+                        <th>@t.Abbreviation</th>
+                        <th>@t.Conference</th>
+                        <th>@t.Stadium</th>
+                        <th>@t.Wins</th>
+                        <th>@t.Losses</th>
+                        <th>@t.Ties</th>
+                    </tr>
+
+                }
+            }
+        </tbody>
+    </table
+</div>
