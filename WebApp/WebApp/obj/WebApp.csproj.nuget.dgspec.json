@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rae50\\source\\repos\\group-project-part-2-ajst\\WebApp\\WebApp\\WebApp.csproj": {}
+    "C:\\Users\\jdort\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\WebApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rae50\\source\\repos\\group-project-part-2-ajst\\WebApp\\WebApp\\WebApp.csproj": {
+    "C:\\Users\\jdort\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rae50\\source\\repos\\group-project-part-2-ajst\\WebApp\\WebApp\\WebApp.csproj",
+        "projectUniqueName": "C:\\Users\\jdort\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\WebApp.csproj",
         "projectName": "WebApp",
-        "projectPath": "C:\\Users\\rae50\\source\\repos\\group-project-part-2-ajst\\WebApp\\WebApp\\WebApp.csproj",
-        "packagesPath": "C:\\Users\\rae50\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rae50\\source\\repos\\group-project-part-2-ajst\\WebApp\\WebApp\\obj\\",
+        "projectPath": "C:\\Users\\jdort\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\WebApp.csproj",
+        "packagesPath": "C:\\Users\\jdort\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jdort\\Documents\\group-project-part-2-ajst\\WebApp\\WebApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rae50\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jdort\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

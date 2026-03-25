@@ -16,6 +16,8 @@ namespace WebApp.Data
         public DbSet<NFLSchedule> NFLSchedules { get; set; }
         public DbSet<NFLPlayers> NFLPlayers { get; set; }
         public DbSet<NFLSeasonStats> NFLSeasonStats { get; set; }
+        public DbSet<NFLTeam> NFLTeams { get; set; }
+        public DbSet<NBAStats> NBAStats { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
@@ -31,6 +33,12 @@ namespace WebApp.Data
             modelBuilder.Entity<NFLSeasonStats>().HasNoKey().ToTable("nflSeasonStats");
 
             modelBuilder.Entity<NFLPlayers>().HasNoKey().ToTable("nflCurrentPlayers");
+
+            modelBuilder.Entity<NFLTeam>().ToTable("nflTeams");
+
+            modelBuilder.Entity<NFLTeam>().HasKey(t => t.NFLTeamID);
+
+            modelBuilder.Entity<NBAStats>().HasNoKey().ToTable("nbaSeasonStats");
 
         }
     }
