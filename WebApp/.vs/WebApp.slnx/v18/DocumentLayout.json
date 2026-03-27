@@ -88,7 +88,7 @@
               "RelativeDocumentMoniker": "WebApp\\Pages\\EpicGames.cshtml",
               "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\ScheduleUpdate\\group-project-part-2-ajst\\WebApp\\WebApp\\Pages\\EpicGames.cshtml",
               "RelativeToolTip": "WebApp\\Pages\\EpicGames.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-03-27T03:16:41.221Z",
               "EditorCaption": ""
@@ -103,8 +103,7 @@
               "RelativeToolTip": "WebApp\\Pages\\RocketLeagueJoke.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-27T02:54:31.649Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T02:54:31.649Z"
             },
             {
               "$type": "Document",
@@ -116,8 +115,7 @@
               "RelativeToolTip": "WebApp\\Pages\\NFLSchedule.cshtml",
               "ViewState": "AgIAAGAAAAAAAAAAAAAgwHMAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-27T02:32:37.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T02:32:37.706Z"
             },
             {
               "$type": "Document",
@@ -129,8 +127,7 @@
               "RelativeToolTip": "WebApp\\Pages\\NBASchedule.cshtml.cs",
               "ViewState": "AgIAABEAAAAAAAAAAAAQwC8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-27T01:44:43.81Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T01:44:43.81Z"
             },
             {
               "$type": "Document",
@@ -142,8 +139,7 @@
               "RelativeToolTip": "WebApp\\Pages\\NBASchedule.cshtml",
               "ViewState": "AgIAAFYAAAAAAAAAAAAmwHMAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-27T01:44:32.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-27T01:44:32.143Z"
             }
           ]
         },
