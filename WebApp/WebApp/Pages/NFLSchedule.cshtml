@@ -3,6 +3,52 @@
 @{
     ViewData["Title"] = "NFL Schedule";
 }
+<style>
+    .page-container {
+        display: flex;
+        gap: 25px;
+        align-items: flex-start;
+    }
+
+    .main-content {
+        flex: 3;
+    }
+
+    .ad-sidebar {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .ad-box {
+        border: 2px solid #ccc;
+        border-radius: 10px;
+        padding: 15px;
+        background-color: #f8f9fa;
+        text-align: center;
+    }
+
+        .ad-box img {
+            width: 100%;
+            max-width: 200px;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+    .ad-button {
+        display: inline-block;
+        padding: 8px 12px;
+        background-color: #0d6efd;
+        color: white;
+        border-radius: 6px;
+        text-decoration: none;
+    }
+
+        .ad-button:hover {
+            background-color: #0b5ed7;
+        }
+</style>
 
 <h1>NFL Schedule</h1>
 
@@ -12,40 +58,65 @@
 
 <h3>@Model.SelectedTeamName</h3>
 
-<table class="table table-striped table-bordered">
-    <thead>
-        <tr>
-            <th>Week</th>
-            <th>Date</th>
-            <th>Away Team</th>
-            <th>Home Team</th>
-            <th>Site Note</th>
-            <th>Kickoff ET</th>
-            <th>Kickoff Local</th>
-            <th>Network</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var game in Model.Games)
-        {
-            <tr>
-                <td>@game.Week</td>
-                <td>@game.Date.ToShortDateString()</td>
-                <td>
-                    <a asp-page="/NFLSchedule" asp-route-TeamName="@game.AwayTeam">
-                        @game.AwayTeam
-                    </a>
-                </td>
-                <td>
-                    <a asp-page="/NFLSchedule" asp-route-TeamName="@game.HomeTeam">
-                        @game.HomeTeam
-                    </a>
-                </td>
-                <td>@game.SiteNote</td>
-                <td>@game.KickoffET</td>
-                <td>@game.KickoffLocal</td>
-                <td>@game.Network</td>
-            </tr>
-        }
-    </tbody>
-</table>
+<div class="page-container">
+       
+    <div class="main-content">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Week</th>
+                    <th>Date</th>
+                    <th>Away Team</th>
+                    <th>Home Team</th>
+                    <th>Site Note</th>
+                    <th>Kickoff ET</th>
+                    <th>Kickoff Local</th>
+                    <th>Network</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var game in Model.Games)
+                {
+                    <tr>
+                        <td>@game.Week</td>
+                        <td>@game.Date.ToShortDateString()</td>
+                        <td>
+                            <a asp-page="/NFLSchedule" asp-route-TeamName="@game.AwayTeam">
+                                @game.AwayTeam
+                            </a>
+                        </td>
+                        <td>
+                            <a asp-page="/NFLSchedule" asp-route-TeamName="@game.HomeTeam">
+                                @game.HomeTeam
+                            </a>
+                        </td>
+                        <td>@game.SiteNote</td>
+                        <td>@game.KickoffET</td>
+                        <td>@game.KickoffLocal</td>
+                        <td>@game.Network</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+    <div class="ad-sidebar">
+
+        <div class="ad-box">
+            <img src="~/images/epicgames.jpg" />
+            <h4>Epic Games</h4>
+            <p>Install Epic Games Launcher now!!</p>
+            <a class="ad-button" asp-page="/EpicGames">Install</a>
+        </div>
+
+        <div class="ad-box">
+            <img src="~/images/rocketleague.jpg" />
+            <h4>Rocket League</h4>
+            <p>Click Below to play Rocket League!! Only some information required!!</p>
+            <a class="ad-button" asp-page="/RocketLeagueJoke">Play</a>
+        </div>
+
+    </div>
+
+</div>
