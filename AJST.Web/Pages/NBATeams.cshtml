@@ -1,0 +1,109 @@
+﻿@page
+@model WebApp.Pages.NBATeamsModel
+@{
+    ViewData["Title"] = "NBA Teams";
+}
+
+<h1>NBA Teams</h1>
+
+@* east *@
+<div class="row mb-4">
+    <div class="col-md-6 mb-3">
+        <div class="card h-100 shadow-sm">
+            <div class="card-header">
+                <h4 class="mb-0">Top 5 Eastern Conference</h4>
+            </div>
+            <div class="card-body">
+                <table class="table table-sm table-striped table-bordered mb-0">
+                    <thead>
+                        <tr>
+                            <th>Team</th>
+                            <th>Wins</th>
+                            <th>Losses</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var team in Model.TopEasternTeams)
+                        {
+                            <tr>
+                                <td>
+                                    <a asp-page="/NBASchedule" asp-route-TeamName="@team.TeamName">
+                                        @team.TeamName
+                                    </a>
+                                </td>
+                                <td>@team.Wins</td>
+                                <td>@team.Losses</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    @* weest *@
+    <div class="col-md-6 mb-3">
+        <div class="card h-100 shadow-sm">
+            <div class="card-header">
+                <h4 class="mb-0">Top 5 Western Conference</h4>
+            </div>
+            <div class="card-body">
+                <table class="table table-sm table-striped table-bordered mb-0">
+                    <thead>
+                        <tr>
+                            <th>Team</th>
+                            <th>Wins</th>
+                            <th>Losses</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var team in Model.TopWesternTeams)
+                        {
+                            <tr>
+                                <td>
+                                    <a asp-page="/NBASchedule" asp-route-TeamName="@team.TeamName">
+                                        @team.TeamName
+                                    </a>
+                                </td>
+                                <td>@team.Wins</td>
+                                <td>@team.Losses</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@* all teams *@
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Team Name</th>
+            <th>Abbreviation</th>
+            <th>Conference</th>
+            <th>Arena</th>
+            <th>Wins</th>
+            <th>Losses</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var team in Model.Teams)
+        {
+            <tr>
+                <td>
+                    <a asp-page="/NBASchedule" asp-route-TeamName="@team.TeamName">
+                        @team.TeamName
+                    </a>
+                </td>
+                <td>@team.Abbreviation</td>
+                <td>@team.Conference</td>
+                <td>@team.Arena</td>
+                <td>@team.Wins</td>
+                <td>@team.Losses</td>
+            </tr>
+        }
+    </tbody>
+</table>
