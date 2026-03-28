@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <script type="importmap"></script>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/WebApp.styles.css" asp-append-version="true" />
+    <link rel="icon" type="image/x-icon" href="~/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="~/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="~/favicon-16x16.png" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+                        aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="mainNav">
+                    <ul class="navbar-nav main-nav">
+
+                        <li class="nav-item nav-brand-item">
+                            <img src="@Url.Content("~/images/logo.png")" 
+                            alt="NFL Teams" 
+                            class="nav-logo"/>
+                            @* <a class="nav-link text-dark brand-link" asp-area="" asp-page="/Index">AJST Sporting Co</a> *@
+                        </li>
+
+                        @* This is the nfl section for the links in nav bar *@
+                        <li class="nav-item nav-section">
+                            <span class=" text-dark section-title" asp-area="" asp-page="/NFL">NFL</span>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/NFLTeams">Teams</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/NFLPlayers">Players</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/NFLSeasonStats">Stats</a>
+                        </li>
+                        <li class="nav-item nav-group-end">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/NFLSchedule">Schedule</a>
+                        </li>
+
+                        @* This is where the nba section is in the header *@
+                        <li class="nav-item nav-section">
+                            <span class="text-dark section-title" asp-area="" asp-page="/NBA">NBA</span>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/NBATeams">Teams</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/NBAPlayers">Players</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/NBAStats">Stats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/NBASchedule">Schedule</a>
+                        </li>
+
+                    </ul>
+
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2026 - WebApp - We The Best Music
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

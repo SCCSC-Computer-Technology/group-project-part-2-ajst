@@ -1,0 +1,171 @@
+html {
+    font-size: 14px;
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+body {
+    min-height: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+    color: var(--bs-secondary-color);
+    text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+    text-align: start;
+}
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.25rem;
+    width: 100%;
+}
+
+.main-nav .nav-link {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.95rem;
+}
+
+.brand-link {
+    font-size: 1.4rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.section-title {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+}
+
+.nav-brand-item {
+    margin-right: 2rem;
+}
+
+.nav-group-end {
+    margin-right: 2rem;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.navbar-nav .nav-item {
+    white-space: nowrap;
+}
+
+.hero-image {
+    max-width: 700px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.table {
+    width: 100%;
+}
+
+.table th, .table td {
+    white-space: nowrap;
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+    margin-bottom: 20px;
+}
+
+.team-item {
+    display: block;
+    text-align: center;
+    padding: 6px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+    border: 1px solid #ddd;
+    background-color: #fafafa;
+    transition: all 0.2s ease;
+}
+
+.team-item:hover {
+    background-color: #e9ecef;
+    border-color: #bbb;
+}
+
+.container:has(> main) {
+    flex: 1;
+}
+
+main {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    height: 60px;
+    width: auto;
+    object-fit: contain;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .main-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        gap: 0;
+    }
+
+    .nav-brand-item, .nav-group-end {
+        margin-right: 0;
+    }
+
+    .nav-brand-item {
+        margin-bottom: 0.5rem;
+    }
+
+    .nav-section {
+        margin-top: 0.5rem;
+    }
+}
