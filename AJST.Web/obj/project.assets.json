@@ -6715,23 +6715,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rae50\\.nuget\\packages\\": {},
+    "C:\\Users\\Shawn\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rae50\\source\\repos\\group-project-part-2-ajst\\AJST.Web\\AJST.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\AJST.Web\\AJST.Web.csproj",
       "projectName": "AJST.Web",
-      "projectPath": "C:\\Users\\rae50\\source\\repos\\group-project-part-2-ajst\\AJST.Web\\AJST.Web.csproj",
-      "packagesPath": "C:\\Users\\rae50\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rae50\\source\\repos\\group-project-part-2-ajst\\AJST.Web\\obj\\",
+      "projectPath": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\AJST.Web\\AJST.Web.csproj",
+      "packagesPath": "C:\\Users\\Shawn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Shawn\\Documents\\group-project-part-2-ajst\\AJST.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\rae50\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Shawn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -6740,7 +6740,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
