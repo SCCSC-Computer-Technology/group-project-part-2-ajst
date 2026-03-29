@@ -17,7 +17,7 @@ namespace WebApp.Pages
             database = insertedData;
         }
 
-        public IEnumerable<NFLSeasonStats>? NFLSeasonStat { get; set; }//creating a string of suppliers
+        public IEnumerable<NFLSeasonStats>? NFLSeasonStat { get; set; }
         [BindProperty]
         public NFLSeasonStats? SeasonStats { get; set; }
 
@@ -26,15 +26,11 @@ namespace WebApp.Pages
 
         public string SelectedNFLTeamStats { get; set; } = "";
 
-        public async Task OnGetAsync()//on get funtion runs when my page loads (formload)
+        public async Task OnGetAsync()
         {
             if (string.IsNullOrEmpty(NFLTeamStats))
             {
-
                 NFLSeasonStat = await database.NFLSeasonStats.OrderBy(nfl => nfl.Team).ToListAsync();
-
-                SelectedNFLTeamStats = "NFL Season Stats";
-
             }
             else
             {
