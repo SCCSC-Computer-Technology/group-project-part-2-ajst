@@ -3,6 +3,381 @@
 @{
     ViewData["Title"] = "NFL Season Stats";
 }
-<h1> NFL Season Stats </h1>
 
+<div class="text-center">
+    <h1> NFL Season Stats </h1>
+    <div>
+        <img src="@Url.Content("~/images/footballSpinning.gif")" style="width:500px;" alt="Loading gif..." />
+    </div>
+</div>
 
+<table class="table table-dark table-striped-columns table text-md-center">
+<thead>
+    <tr>
+            <th>Team</th>
+            <th>Games Played</th>
+            <th>Total Yards</th>
+            <th>Total Yards Per Game</th>
+            <th>Passing Yards</th>
+            <th>Passing Yards Per Game</th>
+            <th>Rushing Yards</th>
+            <th>Rushing Yards Per Game</th>
+            <th>Points</th>
+            <th>Points Per Game</th>
+    </tr>
+</thead>
+    <tbody>
+    @foreach (var stats in Model.NFLSeasonStat)
+    {
+        <tr>
+            <td>
+                <a asp-page="/NFLSeasonStats"
+                       asp-route-NFLTeamStats="@stats.Team"
+                       class="team-list">
+                    @stats.Team
+                </a>
+            </td>
+                <td>@stats.GP</td>
+                <td>@stats.Total_Yards</td>
+                <td>@stats.Total_Yards_Per_Game</td>
+                <td>@stats.Passing_Yards</td>
+                <td>@stats.Passing_Yards_Per_Game</td>
+                <td>@stats.Rushing_Yards</td>
+                <td>@stats.Rushing_Yards_Per_Game</td>
+                <td>@stats.Points</td>
+                <td>@stats.Points_Per_Game</td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+@switch (Model.NFLTeamStats)
+{
+    case "Arizona Cardinals":
+        <body style="background-color: #97233F;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/arizonaCardinals.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Arizona.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Atlanta Falcons":
+        <body style="background-color: #a71930;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/atlantaFalcons.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Atlanta.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Baltimore Ravens":
+        <body style="background-color: #241773;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/baltimoreRavens.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Baltimore.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Buffalo Bills":
+        <body style="background-color: #00338D;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/buffaloBills.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Buffalo.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Carolina Panthers":
+        <body style="background-color: #0085CA;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/carolinaPanthers.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Carolina.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Chicago Bears":
+        <body style="background-color: #0B162A;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/chicagoBears.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Chicago.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Cincinnati Bengals":
+        <body style="background-color: #fb4f14;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/cincinnatiBengals.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Cincinnati.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Cleveland Browns":
+        <body style="background-color: #ff3c00;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/clevelandBrowns.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Cleveland.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Dallas Cowboys":
+        <body style="background-color: #003594;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/dallasCowboys.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Dallas.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Denver Broncos":
+        <body style="background-color: #002244;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/denverBroncos.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Denver.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Detroit Lions":
+        <body style="background-color: #0076b6;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/detroitLions.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Detroit.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Green Bay Packers":
+        <body style="background-color: #203731;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/greenbayPackers.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Greenbay.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Houston Texans":
+        <body style="background-color: #03202f;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/houstonTexans.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Houston.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Indianapolis Colts":
+        <body style="background-color: #002C5F;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/indianapolisColts.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Indianapolis.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Jacksonville Jaguars":
+        <body style="background-color: #101820;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/jacksonvilleJaguars.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Jacksonville.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Kansas City Chiefs":
+        <body style="background-color: #E31837;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/kansascityChiefs.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Kansas city.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Las Vegas Raiders":
+        <body style="background-color: #0080C6;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/oaklandRaiders.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Los Vegas Raiders.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Los Angeles Chargers":
+        <body style="background-color: #003594;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/losangelesChargers.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Los Angeles Chargers.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Los Angeles Rams":
+        <body style="background-color: #008E97;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/losangelesRams.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Los Angeles Rams.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Miami Dolphins":
+        <body style="background-color: #4F2683;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/miamiDolphins.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Miami.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Minnesota Vikings":
+        <body style="background-color: #002244;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/minnesotaVikings.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Minnesota.m4a")">
+            </audio>
+        </body>
+        break;
+    case "New England Patriots":
+        <body style="background-color: #D3BC8D;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/newenglandPatriots.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/New England.m4a")">
+            </audio>
+        </body>
+        break;
+    case "New Orleans Saints":
+        <body style="background-color: #0B2265;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/newOrleans.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/New Orleans.m4a")">
+            </audio>
+        </body>
+        break;
+    case "New York Giants":
+        <body style="background-color: #125740;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/newyorkGiants.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/New York Giants.m4a")">
+            </audio>
+        </body>
+        break;
+    case "New York Jets":
+        <body style="background-color: #A5ACAF;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/newyorkJets.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/New York Jets.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Philadelphia Eagles":
+        <body style="background-color: #004C54;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/philadelphiaEagles.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Philadelphia.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Pittsburgh Steelers":
+        <body style="background-color: #FFB612;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/pittsburghSteelers.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Pittsburgh Steelers.m4a")">
+            </audio>
+        </body>
+        break;
+    case "San Francisco 49ers":
+        <body style="background-color: #B3995D;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/sanfrancisco49ers.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/San fransico.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Seattle Seahawks":
+        <body style="background-color: #002244;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/seattleSeahawks.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Seattle.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Tampa Bay Buccaneers":
+        <body style="background-color: #D50A0A;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/tampaBay.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Tampa.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Tennessee Titans":
+        <body style="background-color: #0C2340;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/tennesseeTitans.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Tennessee Titans.m4a")">
+            </audio>
+        </body>
+        break;
+    case "Washington Commanders":
+        <body style="background-color: #5A1414;">
+            <div class="text-center">
+                <img src="@Url.Content("~/images/washingtonCommanders.png")" style="width:700px;" alt="Loading png..." />
+            </div>
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/Washington.m4a")">
+            </audio>
+        </body>
+        break;
+    default:
+        <body style="background-color: aliceblue;">
+            <audio autoplay>
+                <source src="@Url.Content("~/audio/NFLTheme.m4a")">
+            </audio>
+        </body>
+        break;
+}

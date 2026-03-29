@@ -16,33 +16,39 @@ namespace WebApp.Pages
             database = insertedData;
         }
 
-        public IEnumerable<NFLPlayers>? NFLPlayer { get; set; }//creating a string of suppliers
+        public IEnumerable<NFLPlayers>? NFLPlayer { get; set; } = new List<NFLPlayers>();
         [BindProperty(SupportsGet = true)]
         public NFLPlayers? Player { get; set; }
 
-        [BindProperty]
-        public string SelectedPlayers {  get; set; }
+        [BindProperty(SupportsGet = true)]
         public string SelectedNFLPlayer { get; set; } = "";
 
-        public async Task OnGetAsync()//on get funtion runs when my page loads (formload)
+        [BindProperty(SupportsGet = true)]
+        public string? TeamId { get; set; }
+
+        public async Task OnGetAsync()
+            
         {
-            if (string.IsNullOrEmpty(SelectedNFLPlayer))
+
+
+            if (!string.IsNullOrEmpty(SelectedNFLPlayer)&& !string.IsNullOrEmpty(TeamId))
             {
-                NFLPlayer = await database.NFLPlayers.OrderBy(nfl => nfl.TeamId).ToListAsync();
-                SelectedNFLPlayer = "All Players";
+                NFLPlayer = await database.NFLPlayers.Where(nfl => nfl.Player == SelectedNFLPlayer && nfl.TeamId == TeamId).OrderBy(nfl => nfl.TeamId == TeamId).ThenBy(nfl => nfl.Player).ToListAsync();
+            }
+            else if (!string.IsNullOrEmpty(TeamId))
+            {
+                NFLPlayer = await database.NFLPlayers.Where(nfl => nfl.TeamId == TeamId).ToListAsync();
+            }
+            else if (!string.IsNullOrEmpty(SelectedNFLPlayer))
+            {
+                NFLPlayer = await database.NFLPlayers.Where(nfl => nfl.Player == SelectedNFLPlayer).ToListAsync();
+
             }
             else
             {
-                NFLPlayer = await database.NFLPlayers.Where(nfl => nfl.Player == SelectedNFLPlayer).OrderBy(nfl => nfl.TeamId).ThenBy(nfl => nfl.Player).ToListAsync();
-
-
-                NFLPlayers? selectedNFLPlayer = await database.NFLPlayers.FirstOrDefaultAsync(nfl => nfl.Player == SelectedNFLPlayer);
-
-                if (selectedNFLPlayer != null)
-                {
-                    SelectedNFLPlayer = selectedNFLPlayer.Player;
-                }
+                NFLPlayer = await database.NFLPlayers.Where(nfl => nfl.TeamId == TeamId).OrderBy(nfl => nfl.Player).ToListAsync();
             }
+
         }
 
         public async Task<IActionResult> OnPostAsync()
