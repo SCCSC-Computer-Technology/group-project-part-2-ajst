@@ -1,34 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\",
+  "WorkspaceRootPath": "C:\\Users\\jdort\\Documents\\group-project-part-2-ajst\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\dropdown\\group-project-part-2-ajst\\ajst.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|solutionrelative:ajst.web\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\dropdown\\group-project-part-2-ajst\\ajst.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|solutionrelative:ajst.web\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\dropdown\\group-project-part-2-ajst\\ajst.web\\pages\\nflschedule.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|solutionrelative:ajst.web\\pages\\nflschedule.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\dropdown\\group-project-part-2-ajst\\ajst.web\\pages\\nflplayers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|solutionrelative:ajst.web\\pages\\nflplayers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\dropdown\\group-project-part-2-ajst\\ajst.web\\pages\\nbaschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|solutionrelative:ajst.web\\pages\\nbaschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\dropdown\\group-project-part-2-ajst\\ajst.web\\pages\\nflschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|solutionrelative:ajst.web\\pages\\nflschedule.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|c:\\users\\mstgi\\onedrive\\documents\\github\\dropdown\\group-project-part-2-ajst\\ajst.web\\pages\\nbaschedule.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|solutionrelative:ajst.web\\pages\\nbaschedule.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|c:\\users\\jdort\\documents\\group-project-part-2-ajst\\ajst.web\\pages\\nbastats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66D7A9C1-FF27-5657-6FD6-D54C16B67C6B}|AJST.Web\\AJST.Web.csproj|solutionrelative:ajst.web\\pages\\nbastats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,160 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\AJST.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "AJST.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\AJST.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "AJST.Web\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGcAAAARAAAAAAAAAA==",
+              "Title": "NBAStats.cshtml",
+              "DocumentMoniker": "C:\\Users\\jdort\\Documents\\group-project-part-2-ajst\\AJST.Web\\Pages\\NBAStats.cshtml",
+              "RelativeDocumentMoniker": "AJST.Web\\Pages\\NBAStats.cshtml",
+              "ToolTip": "C:\\Users\\jdort\\Documents\\group-project-part-2-ajst\\AJST.Web\\Pages\\NBAStats.cshtml",
+              "RelativeToolTip": "AJST.Web\\Pages\\NBAStats.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T02:06:10.784Z",
+              "WhenOpened": "2026-03-31T18:34:21.498Z",
+              "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\AJST.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "AJST.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\AJST.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "AJST.Web\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABYAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T02:05:11.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "NFLPlayers.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\AJST.Web\\Pages\\NFLPlayers.cshtml",
-              "RelativeDocumentMoniker": "AJST.Web\\Pages\\NFLPlayers.cshtml",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\AJST.Web\\Pages\\NFLPlayers.cshtml",
-              "RelativeToolTip": "AJST.Web\\Pages\\NFLPlayers.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T01:59:09.778Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "NFLSchedule.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\AJST.Web\\Pages\\NFLSchedule.cshtml.cs",
-              "RelativeDocumentMoniker": "AJST.Web\\Pages\\NFLSchedule.cshtml.cs",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\AJST.Web\\Pages\\NFLSchedule.cshtml.cs",
-              "RelativeToolTip": "AJST.Web\\Pages\\NFLSchedule.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T01:46:37.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NBASchedule.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\AJST.Web\\Pages\\NBASchedule.cshtml.cs",
-              "RelativeDocumentMoniker": "AJST.Web\\Pages\\NBASchedule.cshtml.cs",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\AJST.Web\\Pages\\NBASchedule.cshtml.cs",
-              "RelativeToolTip": "AJST.Web\\Pages\\NBASchedule.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-31T01:46:34.128Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "NFLSchedule.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\AJST.Web\\Pages\\NFLSchedule.cshtml",
-              "RelativeDocumentMoniker": "AJST.Web\\Pages\\NFLSchedule.cshtml",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\AJST.Web\\Pages\\NFLSchedule.cshtml",
-              "RelativeToolTip": "AJST.Web\\Pages\\NFLSchedule.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T01:45:05.574Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "NBASchedule.cshtml",
-              "DocumentMoniker": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\AJST.Web\\Pages\\NBASchedule.cshtml",
-              "RelativeDocumentMoniker": "AJST.Web\\Pages\\NBASchedule.cshtml",
-              "ToolTip": "C:\\Users\\mstgi\\OneDrive\\Documents\\GitHub\\DropDown\\group-project-part-2-ajst\\AJST.Web\\Pages\\NBASchedule.cshtml",
-              "RelativeToolTip": "AJST.Web\\Pages\\NBASchedule.cshtml",
-              "ViewState": "AgIAADsAAAAAAAAAAAAswFkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-03-31T01:44:57.274Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 34,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
             }
           ]
         }
