@@ -67,6 +67,24 @@
 
 <div class="page-container">
 
+    <form method="get" style="margin-bottom: 15px;">
+        <label for="teamSelect"><strong>Filter by Team:</strong></label>
+        <select id="teamSelect" name="TeamName" onchange="this.form.submit()">
+            <option value="">All Teams</option>
+            @foreach (var team in Model.Teams)
+            {
+                if (Model.TeamName == team.TeamName)
+                {
+                    <option value="@team.TeamName" selected>@team.TeamName</option>
+                }
+                else
+                {
+                    <option value="@team.TeamName">@team.TeamName</option>
+                }
+            }
+        </select>
+    </form>
+
     <!-- Main TABLE -->
     <div class="main-content">
         <table class="table table-striped table-bordered">
@@ -106,7 +124,7 @@
         </table>
     </div>
 
-    <!-- FAKE ADS -->
+    <!-- ADS -->
     <div class="ad-sidebar">
 
         <div class="ad-box">

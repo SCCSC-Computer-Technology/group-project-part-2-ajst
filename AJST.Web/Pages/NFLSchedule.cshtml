@@ -59,6 +59,24 @@
 <h3>@Model.SelectedTeamName</h3>
 
 <div class="page-container">
+
+    <form method="get" style="margin-bottom: 15px;">
+        <label for="teamSelect"><strong>Filter by Team:</strong></label>
+        <select id="teamSelect" name="TeamName" onchange="this.form.submit()">
+            <option value="">All Teams</option>
+            @foreach (var team in Model.Teams)
+            {
+                if (Model.TeamName == team)
+                {
+                    <option value="@team" selected>@team</option>
+                }
+                else
+                {
+                    <option value="@team">@team</option>
+                }
+            }
+        </select>
+    </form>
        
     <div class="main-content">
         <table class="table table-striped table-bordered">
