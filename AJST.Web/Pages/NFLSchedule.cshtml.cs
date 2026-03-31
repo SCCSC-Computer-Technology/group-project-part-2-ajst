@@ -16,6 +16,7 @@ namespace WebApp.Pages
         }
 
         public List<NFLSchedule> Games { get; set; } = new();
+        public List<string> Teams { get; set; } = new();
 
         [BindProperty(SupportsGet = true)]
         public string? TeamName { get; set; }
@@ -24,6 +25,21 @@ namespace WebApp.Pages
 
         public async Task OnGetAsync()
         {
+
+            var awayTeams = await _context.NFLSchedules
+                .Select(g => g.AwayTeam)
+                .ToListAsync();
+
+            var homeTeams = await _context.NFLSchedules
+                .Select(g => g.HomeTeam)
+                .ToListAsync();
+
+            Teams = awayTeams
+                .Concat(homeTeams)
+                .Distinct()
+                .OrderBy(t => t)
+                .ToList();
+
             if (string.IsNullOrEmpty(TeamName))
             {
                 Games = await _context.NFLSchedules

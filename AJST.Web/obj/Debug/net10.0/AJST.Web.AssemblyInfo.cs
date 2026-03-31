@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AJST.Web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8a31501ff0b8265703f7587f73bc6f67209726d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e222301fbdea996d844e8278ba4f509edd007ab8")]
 [assembly: System.Reflection.AssemblyProductAttribute("AJST.Web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AJST.Web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

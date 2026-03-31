@@ -16,6 +16,7 @@ namespace WebApp.Pages
         }
 
         public List<NBASchedule> Games { get; set; } = new();
+        public List<NBATeam> Teams { get; set; } = new();
 
         [BindProperty(SupportsGet = true)]
         public string? TeamName { get; set; }
@@ -24,6 +25,11 @@ namespace WebApp.Pages
 
         public async Task OnGetAsync()
         {
+
+            Teams = await _context.NBATeams
+                .OrderBy(t => t.TeamName)
+                .ToListAsync();
+
             if (string.IsNullOrEmpty(TeamName))
             {
                 Games = await _context.NBASchedules
