@@ -3,9 +3,16 @@
 @{
     ViewData["Title"] = "NFL Teams";
 }
+<head>
+<style>
+table, th, td {
+  border: 1px solid gray;
+}
+</style>
+</head>
 <div class="row">
     <h1 class="display-2">NFL Teams</h1>
-    <table class="table">
+    <table class="table table-striped">
         <thead class="thead-inverse">
             <tr>
                 <th>Team Name</th>
@@ -31,7 +38,6 @@
                         <th>@t.Losses</th>
                         <th>@t.Ties</th>
                     </tr>
-
                 }
             }
         </tbody>

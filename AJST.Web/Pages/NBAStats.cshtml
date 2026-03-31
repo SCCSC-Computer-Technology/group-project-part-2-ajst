@@ -3,37 +3,34 @@
 @{
     ViewData["Title"] = "NBA Season Stats";
 }
+<head>
+<style>
+table, th, td {
+  border: 1px solid gray;
+}
+</style>
+</head>
 <div class="row">
     <h1 class="display-2">NBA SEASON STATS</h1>
-    <table class="table">
+    <table class="table table-striped">
         <thead class="thead-inverse">
             <tr>
                         <th>Team</th>
                         <th>Games Played</th>
                         <th>Wins</th>
                         <th>Losses</th>
-                        <th>Winning Percentage</th>
-                        <th>Minutes Per Game</th>
+                        <th>Game Time</th>
                         <th>Points Per Game</th>
-                        <th>Field Goals Made</th>
-                        <th>Field Goals Attempted</th>
-                        <th>Field Goal Percentage</th>
-                        <th>Three Point Field Goals Made</th>
-                        <th>Three Point Field Goals Attempted</th>
-                        <th>Three Point Percentage</th>
-                        <th>Free Throws Made</th>
-                        <th>Free Throws Attempted</th>
-                        <th>Free Throw Percentage</th>
-                        <th>Offensive Rebounds</th>
-                        <th>Defensive Rebounds</th>
-                        <th>Total Rebounds</th>
+                        <th>Field Goal %</th>
+                        <th>Three Point %</th>
+                        <th>Free Throw %</th>
+                        <th>Rebounds</th>
                         <th>Assists</th>
                         <th>Turnovers</th>
                         <th>Steals</th>
                         <th>Blocks</th>
-                        <th>Blocks Against</th>
-                        <th>Personal Fouls</th>
-                        <th>Personal Fouls Drawn</th>
+                        <th>Fouls</th>
+                        
             </tr>
         </thead>
         <tbody></tbody>
@@ -46,31 +43,18 @@
                         <th>@s.Games_Played</th>
                         <th>@s.Wins</th>
                         <th>@s.Losses</th>
-                        <th>@s.Winning_Percentage</th>
                         <th>@s.Minutes_Per_Game</th>
                         <th>@s.Points_Per_Game</th>
-                        <th>@s.Field_Goals_Made</th>
-                        <th>@s.Field_Goals_Attempted</th>
                         <th>@s.Field_Goal_Percentage</th>
-                        <th>@s.Three_Point_Field_Goals_Made</th>
-                        <th>@s.Three_Point_Field_Goals_Attempted</th>
                         <th>@s.Three_Point_Percentage</th>
-                        <th>@s.Free_Throws_Made</th>
-                        <th>@s.Free_Throws_Attempted</th>
                         <th>@s.Free_Throw_Percentage</th>
-                        <th>@s.Offensive_Rebounds</th>
-                        <th>@s.Defensive_Rebounds</th>
                         <th>@s.Total_Rebounds</th>
                         <th>@s.Assists</th>
                         <th>@s.Turnovers</th>
                         <th>@s.Steals</th>
                         <th>@s.Blocks</th>
-                        <th>@s.Blocks_Against</th>
                         <th>@s.Personal_Fouls</th>
-                        <th>@s.Personal_Fouls_Drawn</th>
-
                     </tr>
-
                 }
             }
         </tbody>
